@@ -1,0 +1,294 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 1967,
+            "display_year": "1967 Sgt peppers & SMiLE",
+            "summary": "In 1965 the Beatles releases their world renowned album rubber soul and on the other side of the pond The Beach Boys have a great year by releasing back to back to back good to great albums. Brian Tony Asher and the wrecking crew quietly made pet sounds to critical praise but to a commercial flop.\nWho'll will take the crown for the greatest pop band of all time The Beach Boys or\nThe Beatles",
+            "site_description": "",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmosTuz2hVwP2C3exrDi22iYNtT4U1aW0_rszJc5GRNClPPmB8Fv1tfECY&s=10",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpFe09_deljmIx1pCE1LMjnihMtFSxy_ngUK3oHbj1Bg&s=10",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n</ul>",
+            "recommended_reading_enabled": false,
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 1967,
+        "is_premium": 0,
+        "display_year": "1967 Sgt peppers & SMiLE"
+    }
+];
+
+campaignTrail_temp.credits = "u/eastprize2";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "Brian ",
+            "last_name": "Wilson  ",
+            "election": 20,
+            "party": "The SMiLE party ",
+            "state": "California ",
+            "priority": 1,
+            "description": "<p> Brian Wilson the main creative force for the Beach Boys. Fresh off what many critics call their best album yet but an underperformance on the commercial scale is now working on an another ambitious album with his writing partner van dyke parks</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwbVd6g1WiRiSVrmsPWW_rM3JxPm0Bl9YgM-ilxnFkow&s=10",
+            "electoral_victory_message": "Congrats you’ve been crowned as one of if not the greatest musician of all time, van dyke as one of the best writers ever and The Beach Boys as the greatest band of all time \n\n\n",
+            "electoral_loss_message": "You have lost, Brian has quietly retired and became a recluse. The Beach Boys have made many albums sticking to the formula, to some success",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Van dyke parks is a lyricist he’s very psychedelic which helps Brian ambitions of making his teenage symphony to god </p>",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Van Dyke",
+            "last_name": "Parks",
+            "election": 20,
+            "party": "The SMiLE party",
+            "state": "California ",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://static.tvtropes.org/pmwiki/pub/images/capture_dcran_2022_03_30_195258.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Van dyke parks is a lyricist he’s very psychedelic which helps Brian ambitions of making his teenage symphony to god </p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1003,
+        "fields": {
+            "first_name": "The ",
+            "last_name": "Beatles ",
+            "election": 20,
+            "party": "Sgt Pepper’s Party ",
+            "state": "Liverpool ",
+            "priority": 1,
+            "description": "<p>Off there massive success of their Rubber Soul and Revolver Album’sJohn, Paul, George, and Ringo have made different persona’s of themselves </p> ",
+            "color_hex": "#CCCCCC",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcnAAQliF26pK5hlU8afLWuGyCY0UEKKsf7nNgMp-K31cpNZQ3_QnfL6LWvqXKpJKvWe94Nok7Vc6auqEP5zgH431LIg__PmF7KjSVJ24YOg&s=10",
+            "electoral_victory_message": "Congrats you have been crowned as the Greatest band of the 60’s and of all time ",
+            "electoral_loss_message": "You have lost the crown as the defining band of the 60’s leading to your breakup after the white album’s disastrous sales ",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": "<p> Paul McCartney is the bassist for the band he became the leader after Brian Epstein’s break and John’s stepping back from main leadership duties</p>",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1004,
+        "fields": {
+            "first_name": "Paul ",
+            "last_name": "McCarthy ",
+            "election": 20,
+            "party": "Sgt Pepper’s Party",
+            "state": "Liverpool",
+            "priority": 1,
+            "description": "Running mate description here.",
+            "color_hex": "#CCCCCC",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8ph0POQ9M4uTaSjfBRy_sFt0NwRF04rsYMmB2MmpVw&s=10",
+            "electoral_victory_message": "Winner!",
+            "electoral_loss_message": "Loser!",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": "<p> Paul McCartney is the bassist for the band he became the leader after Brian Epstein’s break and John’s stepping back from main leadership duties</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 500,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 1002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 501,
+        "fields": {
+            "candidate": 1003,
+            "running_mate": 1004
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            1003
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            1003
+        ]
+    }
+];
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#700016",
+    "header_text_color": "#ffffff",
+    "header_text_shadow": "1px 1px 2px rgba(0, 0, 0, 0.7)",
+    "description_background_color": "#f8f8f8",
+    "description_text_color": "#000000",
+    "main_color": "#ffffff",
+    "secondary_color": "#bfe6ff",
+    "secondary_hover_color": "#a5c7df",
+    "scrollbar_color": "#bfe6ff #ffffff",
+    "scrollbar_width": "auto",
+    "image_border": "4px solid #111827",
+    "ui_text_color": "#111827"
+};
+
+jet_data = {
+    "headerColor": "#700016",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#bfe6ff",
+    "containerColor": "#ffffff",
+    "innerWindowColor": "#e8fbff",
+    "innerWindowTextColor": "#000000",
+    "descriptionWindowColor": "#f8f8f8",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#ffa0a0",
+    "bannerImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdHUHaCqSyHW0lOyNmqlOZ_TuhuTIr2xQ9f5U9wBPOTw&s=10",
+    "backgroundImageUrl": "https://www.jetsimon.com/public/static/images/background.jpg",
+    "gameTitle": "THE SMiLEGENTPEPPER’S TRAIL",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#000000",
+    "modBoxTheme": {
+        "header_color": "#700016",
+        "header_text_color": "#ffffff",
+        "header_image_url": "",
+        "header_text_shadow": "1px 1px 2px rgba(0, 0, 0, 0.7)",
+        "header_font": "",
+        "header_margin": "",
+        "description_background_color": "#f8f8f8",
+        "description_text_color": "#000000",
+        "main_color": "#ffffff",
+        "secondary_color": "#bfe6ff",
+        "secondary_hover_color": "#a5c7df",
+        "scrollbar_color": "#bfe6ff #ffffff",
+        "scrollbar_width": "auto",
+        "image_border": "4px solid #111827",
+        "election_image_display": "",
+        "ui_text_color": "#111827"
+    }
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #e8fbff !important; color: #000000; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #f8f8f8 !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #ffa0a0 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+corrr = "\n              <h2>THE SMiLEGENTPEPPER’S TRAIL</h2>\n            ";
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#700016";
+theme.coloring_window    = "#bfe6ff";
+theme.coloring_container = "#ffffff";
+theme.header_image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdHUHaCqSyHW0lOyNmqlOZ_TuhuTIr2xQ9f5U9wBPOTw&s=10";
+theme.body_background = "https://www.jetsimon.com/public/static/images/background.jpg";
+
+applyTheme(theme);
+//#endcode
